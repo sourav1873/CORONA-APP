@@ -1,0 +1,46 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url(../images/corona.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1
+{
+    text-align: center;
+    color: antiquewhite;
+    font-weight: bold;
+}
+.in{
+  border-radius: 10px;
+}
+div
+{
+    width:50%;
+    border-radius: 15px;
+    background-color: blanchedalmond;
+    margin: 20px;
+    padding: 5%;
+    margin: auto;
+}
+label
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+#res
+{
+    background-color: white;
+    display: none;
+    width: 100%;
+}
+.abn{
+  background-color: #28b5b5d0;
+}
